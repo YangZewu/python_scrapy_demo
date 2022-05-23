@@ -1,0 +1,577 @@
+2022-05-23 21:03:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%205> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%203> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%204> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%202> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%205> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%202> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%203> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:03:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%204> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    jdata = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:04:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%205> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:04:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%204> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:04:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%202> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:04:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%203> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:05:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%205> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:05:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%203> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:05:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%202> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:05:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%204> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:07:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%205> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:07:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%203> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:07:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%204> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:07:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%202> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:08:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%205> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:08:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%204> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:08:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%202> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:08:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%203> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index%20=%201)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:10:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=5> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=1)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:10:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=2> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=1)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:10:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=3> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=1)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 21:10:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=4> (referer: https://careers.tencent.com/search.html?query=ot_40001001,ot_40001002,ot_40001003,ot_40001004,ot_40001005,ot_40001006&index=1)
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_Spider\demo_Spider\spiders\TX.py", line 16, in url_info
+    data = json.loads(response.text)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-05-23 22:42:28 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_spider\demo_Spider\pipelines.py", line 65, in close_spider
+    self.cursor.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-05-23 22:42:28 [scrapy.utils.signal] ERROR: Error caught on signal handler: <bound method CoreStats.spider_closed of <scrapy.extensions.corestats.CoreStats object at 0x0000016EA52E85E0>>
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 157, in maybeDeferred_coro
+    result = f(*args, **kw)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pydispatch\robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\extensions\corestats.py", line 31, in spider_closed
+    elapsed_time = finish_time - self.start_time
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+2022-05-23 22:42:28 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-05-23 22:42:28 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 1661, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+2022-05-23 22:42:43 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:1234' ([Errno 11001] getaddrinfo failed)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_spider\demo_Spider\pipelines.py", line 65, in close_spider
+    self.cursor.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-05-23 22:42:43 [scrapy.utils.signal] ERROR: Error caught on signal handler: <bound method CoreStats.spider_closed of <scrapy.extensions.corestats.CoreStats object at 0x00000136446AF2E0>>
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:1234' ([Errno 11001] getaddrinfo failed)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 157, in maybeDeferred_coro
+    result = f(*args, **kw)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pydispatch\robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\extensions\corestats.py", line 31, in spider_closed
+    elapsed_time = finish_time - self.start_time
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+2022-05-23 22:42:43 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-05-23 22:42:43 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 1661, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:1234' ([Errno 11001] getaddrinfo failed)")
+2022-05-23 22:52:11 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:3306' ([Errno 11001] getaddrinfo failed)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\xiaoyang\Documents\python学习区\python学习\python爬虫课程\demo_spider\demo_Spider\pipelines.py", line 65, in close_spider
+    self.cursor.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-05-23 22:52:11 [scrapy.utils.signal] ERROR: Error caught on signal handler: <bound method CoreStats.spider_closed of <scrapy.extensions.corestats.CoreStats object at 0x000001FF84B6F310>>
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:3306' ([Errno 11001] getaddrinfo failed)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 157, in maybeDeferred_coro
+    result = f(*args, **kw)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pydispatch\robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\extensions\corestats.py", line 31, in spider_closed
+    elapsed_time = finish_time - self.start_time
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+2022-05-23 22:52:11 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-05-23 22:52:11 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\pymysql\connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 1661, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\xiaoyang\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:3306' ([Errno 11001] getaddrinfo failed)")
